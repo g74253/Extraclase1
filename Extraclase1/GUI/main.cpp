@@ -1,14 +1,14 @@
-#include <iostream>
-#include "../Estructuras/Grafo.h"
+#include <QApplication>
+#include "mainwindow.h"
 
 using namespace std;
 
-int main() {
-    Grafo grafo;
-    grafo.iniciar();
-    string srt = grafo.ruta(8, 3);
 
-    cout << srt << endl;
+int main(int argc, char *argv[]) {
 
-    return 0;
+    QApplication a(argc, argv);
+    MainWindow w;
+    w.show();
+
+    return QApplication::exec();
 }

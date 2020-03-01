@@ -57,9 +57,22 @@ include CMakeFiles/Extraclase1.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Extraclase1.dir/flags.make
 
+CMakeFiles/Extraclase1.dir/Extraclase1_autogen/mocs_compilation.cpp.o: CMakeFiles/Extraclase1.dir/flags.make
+CMakeFiles/Extraclase1.dir/Extraclase1_autogen/mocs_compilation.cpp.o: Extraclase1_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gretchell/CLionProjects/Extraclase1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Extraclase1.dir/Extraclase1_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Extraclase1.dir/Extraclase1_autogen/mocs_compilation.cpp.o -c /home/gretchell/CLionProjects/Extraclase1/cmake-build-debug/Extraclase1_autogen/mocs_compilation.cpp
+
+CMakeFiles/Extraclase1.dir/Extraclase1_autogen/mocs_compilation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Extraclase1.dir/Extraclase1_autogen/mocs_compilation.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gretchell/CLionProjects/Extraclase1/cmake-build-debug/Extraclase1_autogen/mocs_compilation.cpp > CMakeFiles/Extraclase1.dir/Extraclase1_autogen/mocs_compilation.cpp.i
+
+CMakeFiles/Extraclase1.dir/Extraclase1_autogen/mocs_compilation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Extraclase1.dir/Extraclase1_autogen/mocs_compilation.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gretchell/CLionProjects/Extraclase1/cmake-build-debug/Extraclase1_autogen/mocs_compilation.cpp -o CMakeFiles/Extraclase1.dir/Extraclase1_autogen/mocs_compilation.cpp.s
+
 CMakeFiles/Extraclase1.dir/GUI/main.cpp.o: CMakeFiles/Extraclase1.dir/flags.make
 CMakeFiles/Extraclase1.dir/GUI/main.cpp.o: ../GUI/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gretchell/CLionProjects/Extraclase1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Extraclase1.dir/GUI/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gretchell/CLionProjects/Extraclase1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Extraclase1.dir/GUI/main.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Extraclase1.dir/GUI/main.cpp.o -c /home/gretchell/CLionProjects/Extraclase1/GUI/main.cpp
 
 CMakeFiles/Extraclase1.dir/GUI/main.cpp.i: cmake_force
@@ -70,9 +83,22 @@ CMakeFiles/Extraclase1.dir/GUI/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Extraclase1.dir/GUI/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gretchell/CLionProjects/Extraclase1/GUI/main.cpp -o CMakeFiles/Extraclase1.dir/GUI/main.cpp.s
 
+CMakeFiles/Extraclase1.dir/GUI/mainwindow.cpp.o: CMakeFiles/Extraclase1.dir/flags.make
+CMakeFiles/Extraclase1.dir/GUI/mainwindow.cpp.o: ../GUI/mainwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gretchell/CLionProjects/Extraclase1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Extraclase1.dir/GUI/mainwindow.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Extraclase1.dir/GUI/mainwindow.cpp.o -c /home/gretchell/CLionProjects/Extraclase1/GUI/mainwindow.cpp
+
+CMakeFiles/Extraclase1.dir/GUI/mainwindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Extraclase1.dir/GUI/mainwindow.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gretchell/CLionProjects/Extraclase1/GUI/mainwindow.cpp > CMakeFiles/Extraclase1.dir/GUI/mainwindow.cpp.i
+
+CMakeFiles/Extraclase1.dir/GUI/mainwindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Extraclase1.dir/GUI/mainwindow.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gretchell/CLionProjects/Extraclase1/GUI/mainwindow.cpp -o CMakeFiles/Extraclase1.dir/GUI/mainwindow.cpp.s
+
 CMakeFiles/Extraclase1.dir/Estructuras/Grafo.cpp.o: CMakeFiles/Extraclase1.dir/flags.make
 CMakeFiles/Extraclase1.dir/Estructuras/Grafo.cpp.o: ../Estructuras/Grafo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gretchell/CLionProjects/Extraclase1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Extraclase1.dir/Estructuras/Grafo.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gretchell/CLionProjects/Extraclase1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Extraclase1.dir/Estructuras/Grafo.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Extraclase1.dir/Estructuras/Grafo.cpp.o -c /home/gretchell/CLionProjects/Extraclase1/Estructuras/Grafo.cpp
 
 CMakeFiles/Extraclase1.dir/Estructuras/Grafo.cpp.i: cmake_force
@@ -83,19 +109,41 @@ CMakeFiles/Extraclase1.dir/Estructuras/Grafo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Extraclase1.dir/Estructuras/Grafo.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gretchell/CLionProjects/Extraclase1/Estructuras/Grafo.cpp -o CMakeFiles/Extraclase1.dir/Estructuras/Grafo.cpp.s
 
+CMakeFiles/Extraclase1.dir/Socket/cliente.cpp.o: CMakeFiles/Extraclase1.dir/flags.make
+CMakeFiles/Extraclase1.dir/Socket/cliente.cpp.o: ../Socket/cliente.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gretchell/CLionProjects/Extraclase1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Extraclase1.dir/Socket/cliente.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Extraclase1.dir/Socket/cliente.cpp.o -c /home/gretchell/CLionProjects/Extraclase1/Socket/cliente.cpp
+
+CMakeFiles/Extraclase1.dir/Socket/cliente.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Extraclase1.dir/Socket/cliente.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gretchell/CLionProjects/Extraclase1/Socket/cliente.cpp > CMakeFiles/Extraclase1.dir/Socket/cliente.cpp.i
+
+CMakeFiles/Extraclase1.dir/Socket/cliente.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Extraclase1.dir/Socket/cliente.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gretchell/CLionProjects/Extraclase1/Socket/cliente.cpp -o CMakeFiles/Extraclase1.dir/Socket/cliente.cpp.s
+
 # Object files for target Extraclase1
 Extraclase1_OBJECTS = \
+"CMakeFiles/Extraclase1.dir/Extraclase1_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/Extraclase1.dir/GUI/main.cpp.o" \
-"CMakeFiles/Extraclase1.dir/Estructuras/Grafo.cpp.o"
+"CMakeFiles/Extraclase1.dir/GUI/mainwindow.cpp.o" \
+"CMakeFiles/Extraclase1.dir/Estructuras/Grafo.cpp.o" \
+"CMakeFiles/Extraclase1.dir/Socket/cliente.cpp.o"
 
 # External object files for target Extraclase1
 Extraclase1_EXTERNAL_OBJECTS =
 
+Extraclase1: CMakeFiles/Extraclase1.dir/Extraclase1_autogen/mocs_compilation.cpp.o
 Extraclase1: CMakeFiles/Extraclase1.dir/GUI/main.cpp.o
+Extraclase1: CMakeFiles/Extraclase1.dir/GUI/mainwindow.cpp.o
 Extraclase1: CMakeFiles/Extraclase1.dir/Estructuras/Grafo.cpp.o
+Extraclase1: CMakeFiles/Extraclase1.dir/Socket/cliente.cpp.o
 Extraclase1: CMakeFiles/Extraclase1.dir/build.make
+Extraclase1: /home/gretchell/Qt5.14.1/5.14.1/gcc_64/lib/libQt5Widgets.so.5.14.1
+Extraclase1: /home/gretchell/Qt5.14.1/5.14.1/gcc_64/lib/libQt5Gui.so.5.14.1
+Extraclase1: /home/gretchell/Qt5.14.1/5.14.1/gcc_64/lib/libQt5Core.so.5.14.1
 Extraclase1: CMakeFiles/Extraclase1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gretchell/CLionProjects/Extraclase1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Extraclase1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gretchell/CLionProjects/Extraclase1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Extraclase1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Extraclase1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

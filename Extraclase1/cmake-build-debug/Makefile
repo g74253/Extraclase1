@@ -123,6 +123,19 @@ Extraclase1/fast:
 	$(MAKE) -f CMakeFiles/Extraclase1.dir/build.make CMakeFiles/Extraclase1.dir/build
 .PHONY : Extraclase1/fast
 
+#=============================================================================
+# Target rules for targets named Extraclase1_autogen
+
+# Build rule for target.
+Extraclase1_autogen: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Extraclase1_autogen
+.PHONY : Extraclase1_autogen
+
+# fast build rule for target.
+Extraclase1_autogen/fast:
+	$(MAKE) -f CMakeFiles/Extraclase1_autogen.dir/build.make CMakeFiles/Extraclase1_autogen.dir/build
+.PHONY : Extraclase1_autogen/fast
+
 Estructuras/Grafo.o: Estructuras/Grafo.cpp.o
 
 .PHONY : Estructuras/Grafo.o
@@ -149,6 +162,33 @@ Estructuras/Grafo.s: Estructuras/Grafo.cpp.s
 Estructuras/Grafo.cpp.s:
 	$(MAKE) -f CMakeFiles/Extraclase1.dir/build.make CMakeFiles/Extraclase1.dir/Estructuras/Grafo.cpp.s
 .PHONY : Estructuras/Grafo.cpp.s
+
+Extraclase1_autogen/mocs_compilation.o: Extraclase1_autogen/mocs_compilation.cpp.o
+
+.PHONY : Extraclase1_autogen/mocs_compilation.o
+
+# target to build an object file
+Extraclase1_autogen/mocs_compilation.cpp.o:
+	$(MAKE) -f CMakeFiles/Extraclase1.dir/build.make CMakeFiles/Extraclase1.dir/Extraclase1_autogen/mocs_compilation.cpp.o
+.PHONY : Extraclase1_autogen/mocs_compilation.cpp.o
+
+Extraclase1_autogen/mocs_compilation.i: Extraclase1_autogen/mocs_compilation.cpp.i
+
+.PHONY : Extraclase1_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+Extraclase1_autogen/mocs_compilation.cpp.i:
+	$(MAKE) -f CMakeFiles/Extraclase1.dir/build.make CMakeFiles/Extraclase1.dir/Extraclase1_autogen/mocs_compilation.cpp.i
+.PHONY : Extraclase1_autogen/mocs_compilation.cpp.i
+
+Extraclase1_autogen/mocs_compilation.s: Extraclase1_autogen/mocs_compilation.cpp.s
+
+.PHONY : Extraclase1_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+Extraclase1_autogen/mocs_compilation.cpp.s:
+	$(MAKE) -f CMakeFiles/Extraclase1.dir/build.make CMakeFiles/Extraclase1.dir/Extraclase1_autogen/mocs_compilation.cpp.s
+.PHONY : Extraclase1_autogen/mocs_compilation.cpp.s
 
 GUI/main.o: GUI/main.cpp.o
 
@@ -177,6 +217,60 @@ GUI/main.cpp.s:
 	$(MAKE) -f CMakeFiles/Extraclase1.dir/build.make CMakeFiles/Extraclase1.dir/GUI/main.cpp.s
 .PHONY : GUI/main.cpp.s
 
+GUI/mainwindow.o: GUI/mainwindow.cpp.o
+
+.PHONY : GUI/mainwindow.o
+
+# target to build an object file
+GUI/mainwindow.cpp.o:
+	$(MAKE) -f CMakeFiles/Extraclase1.dir/build.make CMakeFiles/Extraclase1.dir/GUI/mainwindow.cpp.o
+.PHONY : GUI/mainwindow.cpp.o
+
+GUI/mainwindow.i: GUI/mainwindow.cpp.i
+
+.PHONY : GUI/mainwindow.i
+
+# target to preprocess a source file
+GUI/mainwindow.cpp.i:
+	$(MAKE) -f CMakeFiles/Extraclase1.dir/build.make CMakeFiles/Extraclase1.dir/GUI/mainwindow.cpp.i
+.PHONY : GUI/mainwindow.cpp.i
+
+GUI/mainwindow.s: GUI/mainwindow.cpp.s
+
+.PHONY : GUI/mainwindow.s
+
+# target to generate assembly for a file
+GUI/mainwindow.cpp.s:
+	$(MAKE) -f CMakeFiles/Extraclase1.dir/build.make CMakeFiles/Extraclase1.dir/GUI/mainwindow.cpp.s
+.PHONY : GUI/mainwindow.cpp.s
+
+Socket/cliente.o: Socket/cliente.cpp.o
+
+.PHONY : Socket/cliente.o
+
+# target to build an object file
+Socket/cliente.cpp.o:
+	$(MAKE) -f CMakeFiles/Extraclase1.dir/build.make CMakeFiles/Extraclase1.dir/Socket/cliente.cpp.o
+.PHONY : Socket/cliente.cpp.o
+
+Socket/cliente.i: Socket/cliente.cpp.i
+
+.PHONY : Socket/cliente.i
+
+# target to preprocess a source file
+Socket/cliente.cpp.i:
+	$(MAKE) -f CMakeFiles/Extraclase1.dir/build.make CMakeFiles/Extraclase1.dir/Socket/cliente.cpp.i
+.PHONY : Socket/cliente.cpp.i
+
+Socket/cliente.s: Socket/cliente.cpp.s
+
+.PHONY : Socket/cliente.s
+
+# target to generate assembly for a file
+Socket/cliente.cpp.s:
+	$(MAKE) -f CMakeFiles/Extraclase1.dir/build.make CMakeFiles/Extraclase1.dir/Socket/cliente.cpp.s
+.PHONY : Socket/cliente.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +280,22 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Extraclase1"
 	@echo "... edit_cache"
+	@echo "... Extraclase1_autogen"
 	@echo "... Estructuras/Grafo.o"
 	@echo "... Estructuras/Grafo.i"
 	@echo "... Estructuras/Grafo.s"
+	@echo "... Extraclase1_autogen/mocs_compilation.o"
+	@echo "... Extraclase1_autogen/mocs_compilation.i"
+	@echo "... Extraclase1_autogen/mocs_compilation.s"
 	@echo "... GUI/main.o"
 	@echo "... GUI/main.i"
 	@echo "... GUI/main.s"
+	@echo "... GUI/mainwindow.o"
+	@echo "... GUI/mainwindow.i"
+	@echo "... GUI/mainwindow.s"
+	@echo "... Socket/cliente.o"
+	@echo "... Socket/cliente.i"
+	@echo "... Socket/cliente.s"
 .PHONY : help
 
 

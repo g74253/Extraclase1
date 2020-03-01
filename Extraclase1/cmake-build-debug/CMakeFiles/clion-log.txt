@@ -1,4 +1,4 @@
-/home/gretchell/Downloads/clion-2019.3.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/gretchell/CLionProjects/Extraclase1
+/home/gretchell/Downloads/clion-2019.3.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug /home/gretchell/Qt5.14.1/5.14.1/gcc_64/ -G "CodeBlocks - Unix Makefiles" /home/gretchell/CLionProjects/Extraclase1
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/gretchell/CLionProjects/Extraclase1/cmake-build-debug

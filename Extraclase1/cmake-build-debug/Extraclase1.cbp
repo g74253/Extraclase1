@@ -5,7 +5,7 @@
 		<Option title="Extraclase1"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\Qt5.14.1\;CMake Files\..\..\Qt5.14.1\5.14.1\;CMake Files\..\..\Qt5.14.1\5.14.1\gcc_64\;CMake Files\..\..\Qt5.14.1\5.14.1\gcc_64\lib\;CMake Files\..\..\Qt5.14.1\5.14.1\gcc_64\lib\cmake\;CMake Files\..\..\Qt5.14.1\5.14.1\gcc_64\lib\cmake\Qt5Widgets\;CMake Files\..\..\Qt5.14.1\5.14.1\gcc_64\lib\cmake\Qt5Gui\;CMake Files\..\..\Qt5.14.1\5.14.1\gcc_64\lib\cmake\Qt5Core\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/gretchell/CLionProjects/Extraclase1/cmake-build-debug"/>
@@ -34,6 +34,15 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add directory="/home/gretchell/CLionProjects/Extraclase1/cmake-build-debug/Extraclase1_autogen/include"/>
+					<Add directory="/home/gretchell/Qt5.14.1/5.14.1/gcc_64/include"/>
+					<Add directory="/home/gretchell/Qt5.14.1/5.14.1/gcc_64/include/QtCore"/>
+					<Add directory="/home/gretchell/Qt5.14.1/5.14.1/gcc_64/./mkspecs/linux-g++"/>
+					<Add directory="/home/gretchell/Qt5.14.1/5.14.1/gcc_64/include/QtWidgets"/>
+					<Add directory="/home/gretchell/Qt5.14.1/5.14.1/gcc_64/include/QtGui"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -57,6 +66,15 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add directory="/home/gretchell/CLionProjects/Extraclase1/cmake-build-debug/Extraclase1_autogen/include"/>
+					<Add directory="/home/gretchell/Qt5.14.1/5.14.1/gcc_64/include"/>
+					<Add directory="/home/gretchell/Qt5.14.1/5.14.1/gcc_64/include/QtCore"/>
+					<Add directory="/home/gretchell/Qt5.14.1/5.14.1/gcc_64/./mkspecs/linux-g++"/>
+					<Add directory="/home/gretchell/Qt5.14.1/5.14.1/gcc_64/include/QtWidgets"/>
+					<Add directory="/home/gretchell/Qt5.14.1/5.14.1/gcc_64/include/QtGui"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -83,6 +101,16 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gretchell/CLionProjects/Extraclase1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Extraclase1_autogen">
+				<Option working_dir="/home/gretchell/CLionProjects/Extraclase1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gretchell/CLionProjects/Extraclase1/cmake-build-debug/Makefile&quot;  VERBOSE=1 Extraclase1_autogen"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gretchell/CLionProjects/Extraclase1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gretchell/CLionProjects/Extraclase1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gretchell/CLionProjects/Extraclase1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/Estructuras/Grafo.cpp">
 			<Option target="Extraclase1"/>
@@ -93,8 +121,176 @@
 		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/GUI/main.cpp">
 			<Option target="Extraclase1"/>
 		</Unit>
+		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/GUI/mainwindow.cpp">
+			<Option target="Extraclase1"/>
+		</Unit>
+		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/GUI/mainwindow.h">
+			<Option target="Extraclase1"/>
+		</Unit>
+		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/GUI/mainwindow.ui">
+			<Option target="Extraclase1"/>
+		</Unit>
+		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/GUI/ui_mainwindow.h">
+			<Option target="Extraclase1"/>
+		</Unit>
+		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/Socket/cliente.cpp">
+			<Option target="Extraclase1"/>
+		</Unit>
+		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/Socket/cliente.h">
+			<Option target="Extraclase1"/>
+		</Unit>
+		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/cmake-build-debug/Extraclase1_autogen/mocs_compilation.cpp">
+			<Option target="Extraclase1"/>
+		</Unit>
 		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/../../Qt5.14.1/5.14.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.1\5.14.1\gcc_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/../../Qt5.14.1/5.14.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.1\5.14.1\gcc_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/../../Qt5.14.1/5.14.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.1\5.14.1\gcc_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/../../Qt5.14.1/5.14.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.1\5.14.1\gcc_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/../../Qt5.14.1/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.1\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/../../Qt5.14.1/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.1\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/../../Qt5.14.1/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.1\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/../../Qt5.14.1/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.1\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/../../Qt5.14.1/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.1\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/../../Qt5.14.1/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.1\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/../../Qt5.14.1/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.1\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/../../Qt5.14.1/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.1\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/../../Qt5.14.1/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.1\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/../../Qt5.14.1/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.1\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/../../Qt5.14.1/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.1\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/../../Qt5.14.1/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.1\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/../../Qt5.14.1/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.1\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/../../Qt5.14.1/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGtk3ThemePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.1\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/../../Qt5.14.1/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.1\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/../../Qt5.14.1/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.1\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/../../Qt5.14.1/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.1\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/../../Qt5.14.1/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.1\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/../../Qt5.14.1/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.1\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/../../Qt5.14.1/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.1\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/../../Qt5.14.1/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.1\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/../../Qt5.14.1/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.1\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/../../Qt5.14.1/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.1\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/../../Qt5.14.1/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.1\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/../../Qt5.14.1/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.1\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/../../Qt5.14.1/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.1\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/../../Qt5.14.1/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.1\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/../../Qt5.14.1/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.1\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/../../Qt5.14.1/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.1\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/../../Qt5.14.1/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandEglPlatformIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.1\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/../../Qt5.14.1/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.1\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/../../Qt5.14.1/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeEglPlatformIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.1\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/../../Qt5.14.1/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeGlxPlatformIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.1\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/../../Qt5.14.1/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.1\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/../../Qt5.14.1/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.1\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/../../Qt5.14.1/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.1\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/../../Qt5.14.1/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.1\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/../../Qt5.14.1/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.1\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/../../Qt5.14.1/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.1\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/../../Qt5.14.1/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.1\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/../../Qt5.14.1/5.14.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.1\5.14.1\gcc_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/../../Qt5.14.1/5.14.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.1\5.14.1\gcc_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/../../Qt5.14.1/5.14.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.1\5.14.1\gcc_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/../../Qt5.14.1/5.14.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.1\5.14.1\gcc_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/../../Qt5.14.1/5.14.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.14.1\5.14.1\gcc_64\lib\cmake\Qt5Core\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

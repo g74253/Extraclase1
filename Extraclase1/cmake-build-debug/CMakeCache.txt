@@ -223,6 +223,15 @@ ProcessorCount_cmd_nproc:FILEPATH=/usr/bin/nproc
 //Path to a program.
 ProcessorCount_cmd_sysctl:FILEPATH=/sbin/sysctl
 
+//The directory containing a CMake configuration file for Qt5Core.
+Qt5Core_DIR:PATH=/home/gretchell/Qt5.14.1/5.14.1/gcc_64/lib/cmake/Qt5Core
+
+//The directory containing a CMake configuration file for Qt5Gui.
+Qt5Gui_DIR:PATH=/home/gretchell/Qt5.14.1/5.14.1/gcc_64/lib/cmake/Qt5Gui
+
+//The directory containing a CMake configuration file for Qt5Widgets.
+Qt5Widgets_DIR:PATH=/home/gretchell/Qt5.14.1/5.14.1/gcc_64/lib/cmake/Qt5Widgets
+
 
 ########################
 # INTERNAL cache entries

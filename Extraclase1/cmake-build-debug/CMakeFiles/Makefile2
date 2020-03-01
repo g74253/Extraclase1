@@ -59,6 +59,7 @@ all: CMakeFiles/Extraclase1.dir/all
 
 # The main recursive "clean" target.
 clean: CMakeFiles/Extraclase1.dir/clean
+clean: CMakeFiles/Extraclase1_autogen.dir/clean
 
 .PHONY : clean
 
@@ -71,15 +72,15 @@ preinstall:
 # Target rules for target CMakeFiles/Extraclase1.dir
 
 # All Build rule for target.
-CMakeFiles/Extraclase1.dir/all:
+CMakeFiles/Extraclase1.dir/all: CMakeFiles/Extraclase1_autogen.dir/all
 	$(MAKE) -f CMakeFiles/Extraclase1.dir/build.make CMakeFiles/Extraclase1.dir/depend
 	$(MAKE) -f CMakeFiles/Extraclase1.dir/build.make CMakeFiles/Extraclase1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gretchell/CLionProjects/Extraclase1/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target Extraclase1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gretchell/CLionProjects/Extraclase1/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target Extraclase1"
 .PHONY : CMakeFiles/Extraclase1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Extraclase1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gretchell/CLionProjects/Extraclase1/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gretchell/CLionProjects/Extraclase1/cmake-build-debug/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Extraclase1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/gretchell/CLionProjects/Extraclase1/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/Extraclase1.dir/rule
@@ -93,6 +94,33 @@ Extraclase1: CMakeFiles/Extraclase1.dir/rule
 CMakeFiles/Extraclase1.dir/clean:
 	$(MAKE) -f CMakeFiles/Extraclase1.dir/build.make CMakeFiles/Extraclase1.dir/clean
 .PHONY : CMakeFiles/Extraclase1.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Extraclase1_autogen.dir
+
+# All Build rule for target.
+CMakeFiles/Extraclase1_autogen.dir/all:
+	$(MAKE) -f CMakeFiles/Extraclase1_autogen.dir/build.make CMakeFiles/Extraclase1_autogen.dir/depend
+	$(MAKE) -f CMakeFiles/Extraclase1_autogen.dir/build.make CMakeFiles/Extraclase1_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gretchell/CLionProjects/Extraclase1/cmake-build-debug/CMakeFiles --progress-num=7 "Built target Extraclase1_autogen"
+.PHONY : CMakeFiles/Extraclase1_autogen.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Extraclase1_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gretchell/CLionProjects/Extraclase1/cmake-build-debug/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Extraclase1_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gretchell/CLionProjects/Extraclase1/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Extraclase1_autogen.dir/rule
+
+# Convenience name for target.
+Extraclase1_autogen: CMakeFiles/Extraclase1_autogen.dir/rule
+
+.PHONY : Extraclase1_autogen
+
+# clean rule for target.
+CMakeFiles/Extraclase1_autogen.dir/clean:
+	$(MAKE) -f CMakeFiles/Extraclase1_autogen.dir/build.make CMakeFiles/Extraclase1_autogen.dir/clean
+.PHONY : CMakeFiles/Extraclase1_autogen.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
