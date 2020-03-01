@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Extraclase1.dir/GUI/main.cpp.o CMakeFiles/Extraclase1.dir/Estructuras/Grafo.cpp.o  -o Extraclase1 
