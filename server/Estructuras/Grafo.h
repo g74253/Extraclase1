@@ -16,6 +16,7 @@
 using namespace std;
 
 /// Grafo: clase grafo
+/// Parte de este codigo se saco de https://github.com/jpieroabarcam/Dijkstra/blob/master/src/Dijkstra.cpp
 class Grafo {
     /// estructura de la arista
     struct Edge

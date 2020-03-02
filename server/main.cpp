@@ -9,6 +9,7 @@
 #define PORT 8080
 
 /// Main: mantiene el servidor abierto
+/// Parte de este codigo se saco de https://www.geeksforgeeks.org/socket-programming-cc/
 /// \return (error) posibles fallos
 int main() {
     int server_fd, new_socket, valread;

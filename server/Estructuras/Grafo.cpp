@@ -6,7 +6,7 @@
 
 /// Iniciar: inicializa al grafo
 void Grafo::iniciar() {
-    graph.node = 9;
+    graph.node = 10;
     graph.edge = 10;
 
     graph.ledges[1].emplace_back(2, 7);
@@ -44,6 +44,7 @@ void Grafo::iniciar() {
 }
 
 /// ruta: se encarga de buscar y retornar la ruta mas baja del grafo.
+/// Parte de este codigo se saco de https://github.com/jpieroabarcam/Dijkstra/blob/master/src/Dijkstra.cpp
 /// \param start: (int)nodo inicial
 /// \param finish: (int)nodo final
 /// \return (str)ruta mas corta entre nodos o -1 si no existe ruta.
