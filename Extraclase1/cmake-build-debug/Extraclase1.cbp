@@ -112,12 +112,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/Estructuras/Grafo.cpp">
-			<Option target="Extraclase1"/>
-		</Unit>
-		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/Estructuras/Grafo.h">
-			<Option target="Extraclase1"/>
-		</Unit>
 		<Unit filename="/home/gretchell/CLionProjects/Extraclase1/GUI/main.cpp">
 			<Option target="Extraclase1"/>
 		</Unit>

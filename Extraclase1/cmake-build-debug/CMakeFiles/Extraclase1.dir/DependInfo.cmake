@@ -4,7 +4,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/gretchell/CLionProjects/Extraclase1/Estructuras/Grafo.cpp" "/home/gretchell/CLionProjects/Extraclase1/cmake-build-debug/CMakeFiles/Extraclase1.dir/Estructuras/Grafo.cpp.o"
   "/home/gretchell/CLionProjects/Extraclase1/cmake-build-debug/Extraclase1_autogen/mocs_compilation.cpp" "/home/gretchell/CLionProjects/Extraclase1/cmake-build-debug/CMakeFiles/Extraclase1.dir/Extraclase1_autogen/mocs_compilation.cpp.o"
   "/home/gretchell/CLionProjects/Extraclase1/GUI/main.cpp" "/home/gretchell/CLionProjects/Extraclase1/cmake-build-debug/CMakeFiles/Extraclase1.dir/GUI/main.cpp.o"
   "/home/gretchell/CLionProjects/Extraclase1/GUI/mainwindow.cpp" "/home/gretchell/CLionProjects/Extraclase1/cmake-build-debug/CMakeFiles/Extraclase1.dir/GUI/mainwindow.cpp.o"

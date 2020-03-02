@@ -3,18 +3,17 @@
 
 #include <QMainWindow>
 #include <iostream>
-#include "../Estructuras/Grafo.h"
 #include "../Socket/cliente.h"
+#include<string>
 
 using namespace std;
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
-
+/// MainWindow: clase
 class MainWindow : public QMainWindow
 {
-    Grafo grafo;
     Q_OBJECT
 
 public:

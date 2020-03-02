@@ -136,33 +136,6 @@ Extraclase1_autogen/fast:
 	$(MAKE) -f CMakeFiles/Extraclase1_autogen.dir/build.make CMakeFiles/Extraclase1_autogen.dir/build
 .PHONY : Extraclase1_autogen/fast
 
-Estructuras/Grafo.o: Estructuras/Grafo.cpp.o
-
-.PHONY : Estructuras/Grafo.o
-
-# target to build an object file
-Estructuras/Grafo.cpp.o:
-	$(MAKE) -f CMakeFiles/Extraclase1.dir/build.make CMakeFiles/Extraclase1.dir/Estructuras/Grafo.cpp.o
-.PHONY : Estructuras/Grafo.cpp.o
-
-Estructuras/Grafo.i: Estructuras/Grafo.cpp.i
-
-.PHONY : Estructuras/Grafo.i
-
-# target to preprocess a source file
-Estructuras/Grafo.cpp.i:
-	$(MAKE) -f CMakeFiles/Extraclase1.dir/build.make CMakeFiles/Extraclase1.dir/Estructuras/Grafo.cpp.i
-.PHONY : Estructuras/Grafo.cpp.i
-
-Estructuras/Grafo.s: Estructuras/Grafo.cpp.s
-
-.PHONY : Estructuras/Grafo.s
-
-# target to generate assembly for a file
-Estructuras/Grafo.cpp.s:
-	$(MAKE) -f CMakeFiles/Extraclase1.dir/build.make CMakeFiles/Extraclase1.dir/Estructuras/Grafo.cpp.s
-.PHONY : Estructuras/Grafo.cpp.s
-
 Extraclase1_autogen/mocs_compilation.o: Extraclase1_autogen/mocs_compilation.cpp.o
 
 .PHONY : Extraclase1_autogen/mocs_compilation.o
@@ -281,9 +254,6 @@ help:
 	@echo "... Extraclase1"
 	@echo "... edit_cache"
 	@echo "... Extraclase1_autogen"
-	@echo "... Estructuras/Grafo.o"
-	@echo "... Estructuras/Grafo.i"
-	@echo "... Estructuras/Grafo.s"
 	@echo "... Extraclase1_autogen/mocs_compilation.o"
 	@echo "... Extraclase1_autogen/mocs_compilation.i"
 	@echo "... Extraclase1_autogen/mocs_compilation.s"
