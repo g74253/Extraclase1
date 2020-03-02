@@ -4,6 +4,7 @@
 
 #include "cliente.h"
 /// Cliente: Se encarga de enviar el inicio y el final de la ruta deseada.
+/// Parte de este codigo se saco de https://www.geeksforgeeks.org/socket-programming-cc/
 /// \param inicio: nodo de inicio
 /// \param fin: nodo final
 /// \return ruta mas corta entre ellos.

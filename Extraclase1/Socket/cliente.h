@@ -16,7 +16,7 @@
 using namespace std;
 
 /// Cliente: socket del cliente
-
+/// Parte de este codigo se saco de https://www.geeksforgeeks.org/socket-programming-cc/
 class cliente {
 
 public:
